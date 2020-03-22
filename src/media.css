@@ -1,0 +1,16 @@
+@media(max-width: 1020px){
+    .houndst_content_wrapper > h3{font-size: 14.5px;font-weight: 300;font-stretch: normal;font-style: normal;line-height: 1.36;letter-spacing: -0.2px;text-align: center;color: #ffffff;}
+    section{padding: 25px 0px;}
+    .houndst_heading{font-size: 31px;}
+    .houndst_topic > span{font-size: 10px;}
+    .hound_default_primary_btn{width: 100%;}
+}
+@media(max-width:768px){
+    .col-display-none-sm{display: none;}
+    mat-expansion-panel-header{padding: 40px 0px !important;}   
+    .houndst_shre{font-size: 10px;}
+    .class_hounds_border_botn_primary_slider_mobile{ position: absolute;z-index: 1;}
+    .slider_buttons{margin-top: 25%;}
+    .slider_buttons i{color: #ffffff;}
+    .hound_get_involved {margin-top: 25px;}
+}

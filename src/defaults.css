@@ -1,0 +1,33 @@
+body{
+    font-family: 'Work Sans', sans-serif; 
+    font-family: 'Roboto Slab', serif;
+}
+section{
+    padding: 65px 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0;
+}
+ul> li{
+    list-style:none ;
+}
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.8;
+}
+footer{
+    padding: 65px 0px;
+    background-color: #363636;
+}
+mat-expansion-panel-header{
+    padding: 40px 0px !important;
+}   
+button:focus {
+    outline: 0px dotted !important;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+.mat-accordion .mat-expansion-panel:first-of-type{
+    border-radius: 0 !important;
+}

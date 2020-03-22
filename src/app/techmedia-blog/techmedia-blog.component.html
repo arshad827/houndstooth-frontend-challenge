@@ -1,0 +1,483 @@
+<nav class="navbar navbar-expand-lg  sticky-top  houndst_bg_navBar">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">techmedia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" (click)="isShow()"
+            data-target="#navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-icons text-white">
+                menu
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" [ngClass]="{'show': idShow}">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Attend <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sponsor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                </li>
+                <li class="nav-item pull-right">
+                    <a class="nav-link" href="#">Subscribe</a>
+                </li>
+            </ul>
+            <ul class=" navbar-nav form-inline my-2 my-lg-0">
+                <li class="nav-item pull-right">
+                    <a class="nav-link" href="#">
+                        Download our sponsor guide
+                        <span
+                            class="material-icons hound_default_primary_btn_icons hound_default_primary_btn_icons_download">
+                            arrow_downward
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </div>
+</nav>
+<section class="houndst_section">
+    <div class="container">
+        <div class="houndst_content_wrapper">
+            <h3>"Being an entrepreneur is a marathon,<br class="d-sm-block d-md-none"> it is not a sprint."</h3>
+            <p>-KRISTI ZUHLKE</p>
+        </div>
+    </div>
+</section>
+<section class="houndst_content">
+    <div class="container">
+        <ul class="houndst_breadcrumb_ul">
+
+            <li>
+                <a href="#" class="houndst_default_button">CHICAGO</a>
+            </li>
+
+            <li>
+                <a href="#" class="houndst_default_button houndst_default_button_hovered">FOUNDER FEATURE</a>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="mt-4">
+                    <h2 class="houndst_heading">If you don’t know your customer, you’re</h2>
+                </div>
+                <div class="houndst_topic mt-5 mt-sm-2">
+                    <span>
+                        BY TECHWEEK HQ |
+                    </span>
+                    <span>
+                        SEPTEMBER 5, 2017, 3:14 PM CDT |
+                    </span>
+                    <span>
+                        5 min read
+                    </span>
+                </div>
+                <!-- Phone screen social icons -->
+                <div class="col-xs-12 d-md-none d-sm-block mt-3">
+                    <div class="d-inline ml-2">
+                        <span class="houndsst_social_links fa_facebook"><i class="fab fa-facebook-f"></i></span>
+                    </div>
+                    <div class="d-inline ml-2">
+                        <span class="houndsst_social_links fa_twitter"><i class="fab fa-twitter"></i></span>
+                    </div>
+                    <div class="d-inline ml-2">
+                        <span class="houndsst_social_links fa_linkedin"><i class="fab fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <!-- only visible in mobile devices -->
+                    <div class="col-sm-12 mb-3 d-sm-block d-md-none">
+                        <mat-accordion>
+                            <mat-expansion-panel class="expansion_cistom_header">
+                                <mat-expansion-panel-header>
+                                    <div class="col-sm-12 pl-0 text-left">
+                                        <img class="img-fluid" style="width: 70px;float: left; "
+                                            src="..//..//assets/04_Kristi Profile image.png">
+                                        <div
+                                            style="display: inline-block;margin-top: 15px;float:left;margin-left: 15px;max-width: 65%;">
+                                            <ul class="hound_profile hound_profile_mobile">
+                                                <li>
+                                                    Kristi Zuhlke
+                                                </li>
+                                                <li>Founder, KnowledgeHound | CONTRIBUTOR</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </mat-expansion-panel-header>
+                                <ul class="hound_profile mt-3">
+                                    <li>
+                                        COMPANY OVERVIEW
+                                    </li>
+                                    <li class="mt-2">Website:</li>
+                                    <li>www.knowledgehound.com</li>
+
+                                    <li class="mt-2">Date Founded:</li>
+                                    <li>2015</li>
+
+                                    <li class="mt-2">Industry:</li>
+                                    <li>B2B Saas Security</li>
+
+                                    <li class="mt-2">Number of employees:</li>
+                                    <li>08</li>
+
+                                    <li class="mt-2">Amount raised:</li>
+                                    <li>$700,000</li>
+
+                                    <li class="mt-2">HQ location:</li>
+                                    <li>Chicago</li>
+
+                                    <li class="mt-2">Fact:</li>
+                                    <li>100,000 emails sent</li>
+                                </ul>
+                            </mat-expansion-panel>
+                        </mat-accordion>
+                    </div>
+                    <div></div>
+                    <!--left aligned profile -->
+                    <div class="col-md-4 col-display-none-sm">
+                        <div class="col-xs-12 col-md-5 pl-0 text-left">
+                            <img class="img-fluid" src="..//..//assets/04_Kristi Profile image.png">
+                        </div>
+                        <div class="mt-3">
+                            <ul class="hound_profile">
+                                <li>
+                                    Kristi Zuhlke
+                                </li>
+                                <li>Founder, KnowledgeHound</li>
+                                <li>CONTRIBUTOR</li>
+                            </ul>
+                            <div class="col-xs-12 col-md-10 mt-3 class_hounds_border_botn"></div>
+                            <ul class="hound_profile mt-3">
+                                <li>
+                                    COMPANY OVERVIEW
+                                </li>
+                                <li class="mt-2">Website:</li>
+                                <li>www.knowledgehound.com</li>
+
+                                <li class="mt-2">Date Founded:</li>
+                                <li>2015</li>
+
+                                <li class="mt-2">Industry:</li>
+                                <li>B2B Saas Security</li>
+
+                                <li class="mt-2">Number of employees:</li>
+                                <li>08</li>
+
+                                <li class="mt-2">Amount raised:</li>
+                                <li>$700,000</li>
+
+                                <li class="mt-2">HQ location:</li>
+                                <li>Chicago</li>
+
+                                <li class="mt-2">Fact:</li>
+                                <li>100,000 emails sent</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- main blog content -->
+                    <div class="col-md-8">
+                        <p class="houndst_p">
+                            <span>CHICAGO</span>: Consumer packaged good (CPG) companies have massive marketing
+                            budgets
+                            we know this
+                            – think of every Olympics P&G commercial that aired. But did you know that on average
+                            47% of
+                            their marketing budgets are spent on marketing research and yet today there are very few
+                            tools to search, categorize, and sift through all those reports? Think how frustrating
+                            it
+                            would be to spend figures on a report and then not be able to recall it?
+                        </p>
+                        <img class="img-fluid  mt-4" src="..//..//assets/05_Blog_Image1.png">
+                        <span class="houndst_img_subhead">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit</span>
+                        <p class="houndst_p  mt-4">
+                            In steps Kristi Zuhlke, Founder of KnowledgeHound, a young Chicago startup building
+                            software
+                            for Fortune 500 companies to manage these reports seamlessly. Not only does she have a
+                            great
+                            product but she’s built a great team on values and culture that is truly inspiring.
+                            Techweek
+                            CEO, Amanda Signorelli, sat down with Kristi to learn more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- right aligned social section -->
+            <div class="col-md-3 ">
+                <ul class="class_hounds__share d-sm-none d-md-block d-none">
+                    <li>
+                        <a href="#">
+                            <div class="d-inline ml-2">
+                                <span class="houndsst_social_links fa_facebook"><i class="fab fa-facebook-f"></i></span>
+                            </div>
+
+                            <span class="houndst_shre">SHARE with friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="d-inline ml-2">
+                                <span class="houndsst_social_links fa_twitter"><i class="fab fa-twitter"></i></span>
+                            </div>
+
+                            <span class="houndst_shre">SHARE with friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="d-inline ml-2">
+                                <span class="houndsst_social_links fa_linkedin"><i
+                                        class="fab fa-linkedin-in"></i></span>
+                            </div>
+                            <span class="houndst_shre">SHARE with friends</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="hound_get_involved d-md-block d-sm-none d-none">
+                    <p>
+                        Get involved
+                    </p>
+                    <div class="col-xs-12 col-md-10 mt-2 class_hounds_border_botn_primary"></div>
+                    <div class="col-xs-12 col-md-10 mt-3 p-0">
+                        <button type="button" class="btn btn-primary hound_default_primary_btn">
+                            <span>
+                                TICKETS
+                            </span>
+                            <span class="material-icons hound_default_primary_btn_icons">
+                                arrow_right_alt
+                            </span>
+                        </button>
+
+                        <button type="button" class="btn btn-primary hound_default_primary_btn mt-2">
+                            <span>
+                                Sponsor
+                            </span>
+                            <span class="material-icons hound_default_primary_btn_icons">
+                                arrow_right_alt
+                            </span>
+                        </button>
+
+                        <button type="button" class="btn btn-primary hound_default_primary_btn mt-2">
+                            <span>
+                                MISSION
+                            </span>
+                            <span class="material-icons hound_default_primary_btn_icons">
+                                arrow_right_alt
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hound_get_involved hound_get_involved_secondary">
+                    <p>
+                        Get involved
+                    </p>
+                    <div class="col-xs-12 col-md-10 mt-2 class_hounds_border_botn_primary"></div>
+                    <div class="col-xs-12 col-md-10 mt-3 p-0">
+                        <ul class="hound_profile hound_blogs_upcomming_events mt-3">
+                            <li>
+                                Techweek Washington D.C.
+                                October 2 - 6, 2017
+                            </li>
+                            <li class="mt-2 class_hound_knowmore">Know more | View sponsors</li>
+                            <div class="col-xs-12 col-md-12 mt-2 class_hounds_border_botn"></div>
+                            <ul class="hound_profile hound_blogs_upcomming_events mt-3">
+                                <li>
+                                    Techweek Washington D.C.
+                                    October 2 - 6, 2017
+                                </li>
+                                <li class="mt-2 class_hound_knowmore">Know more | View sponsors</li>
+                            </ul>
+                            <div class="col-xs-12 col-md-12 mt-2 class_hounds_border_botn"></div>
+                            <ul class="hound_profile hound_blogs_upcomming_events mt-3">
+                                <li>
+                                    Techweek Washington D.C.
+                                    October 2 - 6, 2017
+                                </li>
+                                <li class="mt-2 class_hound_knowmore">Know more | View sponsors</li>
+                            </ul>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="q_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                <div class="col-xs-12 col-md-8 offset-md-4">
+                    <p class="houndst_p houndst_p_secondory">
+                        Amanda: Tell us a little about your company today.
+                    </p>
+                    <p class="houndst_p  mt-4">
+                        Kristi: We believe in data democratization. We believe that when organizations and people have
+                        access to data, they can make better and more impactful products for the world. We are on a
+                        mission to democratize data throughout the world and starting with helping organizations find
+                        and activate their own data.
+                    </p>
+                    <p class="houndst_p  mt-4">
+                        Kristi: We believe in data democratization. We believe that when organizations and people have
+                        access to data, they can make better and more impactful products for the world. We are on a
+                        mission to democratize data throughout the world and starting with helping organizations find
+                        and activate their own data.
+                    </p>
+                    <p class="hound_blog_quotes pl-md-4 mt-5">
+                        “We are on a mission to democratize data throughout the world and starting with helping
+                        organizations find and activate their own data.”
+                    </p>
+                    <p class="houndst_p  mt-5">
+                        <span class="hound_blog_content_internal">Kristi</span>: We believe in data democratization. We
+                        believe that when organizations and people have
+                        access to data, they can make better and more impactful products for the world. We are on a
+                        mission to democratize data throughout the world and starting with helping organizations find
+                        and activate their own data.
+                    </p>
+                    <div class="col-xs-12 col-md-12 mt-5 class_hounds_border_botn"></div>
+                    <ul>
+                        <li class="class_hound_knowmore  mt-2">
+                            Kristi is the founder of KnowledgeHound.
+
+                        </li>
+                        <li class="class_hound_knowmore  mt-1 ">
+                            To know more about KnowledgeHound, visit their website
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="recomended">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 mx-auto">
+                <div class="d-none d-md-block d-sm-none">
+                    <p>
+                        RECOMMENDED
+                    </p>
+                    <div class="col-xs-12 col-md-12 mt-2 class_hounds_border_botn_primary"></div>
+
+                    <div class="row mt-3">
+                        <div class="col-xs-12 col-md-2 slider_grid text-left">
+                            <button class="slider_buttons" (click)="prev()">
+                                <span class="align-middle"><i class="fas fa-chevron-left"></i></span>
+                            </button>
+
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4" *ngFor="let item of sliderArray; let i = index">
+                                    <img class="img-fluid" *ngIf="i < 3"
+                                        src="..//..//assets/07_Reccomemded section/{{item.img}}">
+                                    <p class="slider_content mt-2" *ngIf="i < 3">{{item.text}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-2 slider_grid text-right">
+                            <button class="slider_buttons" (click)="next()">
+                                <span class="align-middle"> <i class="fas fa-chevron-right"></i> </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- for Mobile devices -->
+                <div class="d-md-none d-sm-block d-xs-block">
+
+                    <p>
+                        RECOMMENDED
+                    </p>
+                    <div class="col-xs-12 col-md-12 mt-2 class_hounds_border_botn_primary"></div>
+                    <div class="row mt-3">
+                        <div class="col-xs-12 col-md-2 slider_grid text-left class_hounds_border_botn_primary_slider_mobile" >
+                            <button class="slider_buttons" (click)="prev()">
+                                <span class="align-middle"><i class="fas fa-chevron-left"></i></span>
+                            </button>
+
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4" *ngFor="let item of sliderArray; let i = index">
+                                    <img class="img-responsive" *ngIf="i < 1"
+                                        src="..//..//assets/07_Reccomemded section/{{item.img}}">
+                                    <p class="slider_content mt-2" *ngIf="i < 1">{{item.text}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-2 slider_grid text-right class_hounds_border_botn_primary_slider_mobile">
+                            <button class="slider_buttons" (click)="next()">
+                                <span class="align-middle"> <i class="fas fa-chevron-right"></i> </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- get involved section  for mobile devices -->
+                <div class="hound_get_involved d-sm-block d-md-none  d-xs-block">
+                    <p>
+                        Get involved
+                    </p>
+                    <div class="col-xs-12 col-md-10 mt-2 class_hounds_border_botn_primary"></div>
+                    <div class="col-xs-12 col-md-10 mt-3 p-0">
+                        <button type="button" class="btn btn-primary hound_default_primary_btn">
+                            <span>
+                                TICKETS
+                            </span>
+                            <span class="material-icons hound_default_primary_btn_icons">
+                                arrow_right_alt
+                            </span>
+                        </button>
+
+                        <button type="button" class="btn btn-primary hound_default_primary_btn mt-2">
+                            <span>
+                                Sponsor
+                            </span>
+                            <span class="material-icons hound_default_primary_btn_icons">
+                                arrow_right_alt
+                            </span>
+                        </button>
+
+                        <button type="button" class="btn btn-primary hound_default_primary_btn mt-2">
+                            <span>
+                                MISSION
+                            </span>
+                            <span class="material-icons hound_default_primary_btn_icons">
+                                arrow_right_alt
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog_border">
+    <img src="..//..//assets/Footer.png">
+</section>
+<footer>
+
+    <div class="col-xs-12 col-md-8 mx-auto text-center">
+        <p class="footer-c">Techmedia is a registered trademark of Techmedia, Inc. All rights reserved</p>
+
+    </div>
+</footer>

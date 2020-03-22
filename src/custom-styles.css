@@ -1,0 +1,379 @@
+/* default button */
+.houndst_default_button{
+    border: solid 1.5px #ff4838;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 1.39px;
+    text-align: left;
+    color: #ff4838;
+    padding: 7px 15px;
+}
+.houndst_default_button_hovered, .houndst_default_button:hover{
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 1.39px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff4838;
+    opacity: 1;
+}
+.hound_default_primary_btn{
+    font-family: Work Sans;
+    width: 90%;    
+    font-size: 13px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 1.81px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px;
+    border-color: #ff4838; 
+    border-radius: 3px;
+    background: linear-gradient(to right, #ffffff 50%, #ff4838 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+.hound_default_primary_btn:hover{
+    border-color: #ff4838; 
+    background-position: left bottom;
+}
+.hound_default_primary_btn:hover > span{
+    color: #ff4838;
+}
+/* default text */
+.text-white{
+color: #ffffff;
+}
+.hound_blogs_upcomming_events li:first-child{
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #000000;
+}
+.hound_default_primary_btn_icons{
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1.81px;
+    text-align: center;
+    color: #ffffff;
+    float: right;
+    margin-top: 3px;
+}
+.hound_default_primary_btn_icons_download{
+    float: left;
+}
+.houndst_breadcrumb_ul > li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.houndst_breadcrumb_ul li{list-style: none;}
+.houndst_bg_navBar{
+    background-color: #ff4838;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-brand{
+    font-size: 24px;
+    color: #ffff;
+    font-weight: 600;
+}
+.navbar-nav .nav-link{
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.houndst_content_wrapper > h3 {
+    font-family: Roboto Slab;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .houndst_section{
+      background: url('assets/02_Header_Banner_Background image.png') rgba(0, 0, 0, 0.7);
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size:cover;
+      background-blend-mode: multiply;
+      padding: 60px 0px;
+  }
+  .houndst_content_wrapper > p{
+    height: 14px;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b9b9b9;
+    margin-bottom: 0;
+  }
+
+  /* content */
+  .houndst_heading{
+    font-family: Roboto Slab;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -1.13px;
+    text-align: left;
+    color: #000000;
+  }
+  .houndst_topic > span{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #585858;
+  }
+  .houndst_shre{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #585858;
+    margin-left: 10px;
+  }
+.houndstsvg_{
+    width: 40px;
+    height: 25px;
+}
+.class_hounds__share > li{
+    margin-bottom: 15px;
+}
+.houndst_p{
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.82;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #585858;
+}
+.houndst_p_secondory{
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: -0.64px;
+    text-align: left;
+    color: #000000;
+}
+.houndst_p > span{
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.43px;
+}
+.houndst_img_subhead{
+    font-family: Work Sans;
+    font-size: 9px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #585858;
+}
+.hound_profile  li:first-child{ 
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+.hound_profile  li{ 
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #585858;
+}
+.class_hounds_border_botn_primary{
+    height: 3px;
+    background-color: #000000;
+}
+.class_hounds_border_botn{
+    height: 1px;
+    background-color: #dcdcdc;
+}
+.hound_get_involved{
+    margin-top: 97px;
+}
+.hound_get_involved_secondary{
+    margin-top: 30px;
+
+}
+.hound_get_involved > p{
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+.class_hound_knowmore{
+    font-size: 12px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #585858;
+}
+
+/* q_section */
+.q_section{
+    background-color: #f2f2f2;
+    background-image: url(/assets/06_Question\ mark.png);
+    background-attachment: fixed;
+    background-position: left;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: left;
+    background-position-y: top;
+}
+.hound_blog_quotes{
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -1.13px;
+    text-align: left;
+    color: #ff4838;
+    padding: 0px 15px;
+}
+.hound_blog_content_internal{
+    color: #ff4838 !important;
+}
+
+/* slider */
+.slider_content{
+    font-family: Roboto Slab;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #000000
+}
+.blog_border{
+    padding: 0;
+}
+.blog_border > img{
+    width: 100%;
+    line-height: 0;
+    margin-bottom: -16px;
+}
+.footer-c{
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.38;
+    letter-spacing: -0.64px;
+    text-align: center;
+    color: #999999;
+    margin:0;
+}
+/* social links */
+.houndsst_social_links{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px 6px;
+    color: #ff4838
+}
+.fa_facebook{padding: 2px 8px;}
+.fa_twitter{padding: 2px 5px;}
+.fa_linkedin{padding: 2px 6px;}
+.expansion_cistom_header{
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    border-radius: 0px;
+    border-right-color: rgb(220, 220, 220);
+    border-left-color: rgb(220, 220, 220);
+}
+.hound_profile_mobile > li{
+    max-width: 90%;
+    white-space: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* ÷slider */
+.slider_buttons{
+    vertical-align: middle;
+    background: transparent;
+    border: none;
+    margin-top: 50%;
+}
+.slider_buttons i{
+    color: #000000;
+}
+.img-responsive{
+ width: 100%;
+}
